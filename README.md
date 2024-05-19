@@ -1,8 +1,10 @@
 # Adaptive-cruise-control
 
 Adaptive cruise control (ACC) is an advanced driver assistance system (ADAS) designed to enhance vehicle safety and comfort by automatically adjusting the vehicle's speed to maintain a safe following distance from the vehicle ahead. The implementation of ACC typically involves complex algorithms such as Proportional-Integral-Derivative (PID) control.
+
 <br>
 PID control is a widely used control algorithm in engineering and automation. It works by continuously calculating an error signal, which represents the difference between the desired setpoint (in this case, the desired following distance) and the actual measured value (the current following distance). The PID controller then adjusts the system's control inputs (in this case, the vehicle's throttle or braking) based on proportional, integral, and derivative terms to minimize this error and achieve the desired performance.
+
 <br>
 Here's a breakdown of how ACC using PID control works:
 
